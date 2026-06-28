@@ -1,12 +1,12 @@
-# Spylt-mikshake-website
+# Spylt Awward Clone
 
 Recreating a website frontend that has won an Awwwards Site of the Day, using GSAP, ReactJS, and Tailwind CSS.
 
-## � Live Demo
+## 🌐 Live Demo
 
-Check out the live demo here: **[https://amanverma0001.github.io/Spylt-mikshake-website/](https://amanverma0001.github.io/Spylt-mikshake-website/)**
+Check out the live demo here: **[https://amanverma0001.github.io/Spylt-awward-clone/](https://amanverma0001.github.io/Spylt-awward-clone/)**
 
-## �🎨 Description
+## 🎨 Description
 
 This project is a clone of an Awwwards-awarded website (Site of the Day). It showcases smooth and modern animations with a clean and responsive user interface. The site features multiple dynamic sections including product benefits, a flavor gallery, and customer testimonials.
 
@@ -31,15 +31,15 @@ This project is a clone of an Awwwards-awarded website (Site of the Day). It sho
 ## 📦 Installation
 
 ### Prerequisites
-- Node.js (v16 or higher)
+- Node.js (v18 or higher)
 - npm or yarn
 
 ### Steps
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/amanverma0001/Spylt-mikshake-website.git
-   cd Spylt-mikshake-website
+   git clone https://github.com/amanverma0001/Spylt-awward-clone.git
+   cd Spylt-awward-clone
    ```
 
 2. **Install dependencies**
@@ -110,7 +110,7 @@ To deploy the production version:
 npm run build
 ```
 
-Compiled files will be available in the `dist/` folder.
+Compiled files will be available in the `docs/` folder.
 
 ## 📱 Responsiveness
 
@@ -124,3 +124,7 @@ The project uses Tailwind CSS and React Responsive to ensure an optimal experien
 - GSAP animations are integrated via `@gsap/react` for better React integration
 - Images and videos are stored in the `public/` folder
 - Custom fonts are imported from Google Fonts
+
+## 👤 Author
+
+**Amandeep Verma** — [GitHub](https://github.com/amanverma0001)

@@ -9,7 +9,7 @@ const FooterSection = () => {
     <section className="footer-section">
       <img
         src={`${import.meta.env.BASE_URL}images/footer-dip.png`}
-        alt=""
+        alt="Decorative footer divider"
         className="w-full object-cover -translate-y-1"
       />
 
@@ -23,6 +23,7 @@ const FooterSection = () => {
         {isMobile ? (
           <img
             src={`${import.meta.env.BASE_URL}images/footer-drink.png`}
+            alt="SPYLT milkshake bottle"
             className="absolute top-0 object-contain"
           />
         ) : (
@@ -37,13 +38,13 @@ const FooterSection = () => {
 
         <div className="flex-center gap-5 relative z-10 md:mt-20 mt-5">
           <div className="social-btn">
-            <img src={`${import.meta.env.BASE_URL}images/yt.svg`} alt="" />
+            <img src={`${import.meta.env.BASE_URL}images/yt.svg`} alt="YouTube" />
           </div>
           <div className="social-btn">
-            <img src={`${import.meta.env.BASE_URL}images/insta.svg`} alt="" />
+            <img src={`${import.meta.env.BASE_URL}images/insta.svg`} alt="Instagram" />
           </div>
           <div className="social-btn">
-            <img src={`${import.meta.env.BASE_URL}images/tiktok.svg`} alt="" />
+            <img src={`${import.meta.env.BASE_URL}images/tiktok.svg`} alt="TikTok" />
           </div>
         </div>
 

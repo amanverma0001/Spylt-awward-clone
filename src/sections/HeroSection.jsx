@@ -69,11 +69,13 @@ const HeroSection = () => {
             {isMobile && (
               <img
                 src={`${import.meta.env.BASE_URL}images/hero-bg.png`}
+                alt="SPYLT milkshake background"
                 className="absolute bottom-40 size-full object-cover"
               />
             )}
             <img
               src={`${import.meta.env.BASE_URL}images/hero-img.png`}
+              alt="SPYLT protein milkshake product"
               className="absolute bottom-0 left-1/2 -translate-x-1/2 object-auto"
             />
           </>
@@ -97,7 +99,7 @@ const HeroSection = () => {
             className="hero-text-scroll"
           >
             <div className="hero-subtitle">
-              <h1>Protein + Caffine </h1>
+              <h1>Protein + Caffeine</h1>
             </div>
           </div>
 
